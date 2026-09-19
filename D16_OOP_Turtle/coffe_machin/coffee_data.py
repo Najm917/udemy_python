@@ -53,3 +53,5 @@ resources = {
     "milk": 30000,     # 30 Liters
     "coffee": 10000,   # 10 Kg
 }
+
+print("arif")

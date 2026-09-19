@@ -31,3 +31,5 @@ class CoffeeMaker:
         """Refills the resources back to full capacity."""
         self.resources = default_resources.copy()
         print("Machine resources have been successfully refilled!")
+        
+        print("arif")

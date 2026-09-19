@@ -43,3 +43,7 @@ class MoneyMachine:
             print(f"Sorry that's not enough money. Received {self.CURRENCY}{self.money_received}, but cost is {self.CURRENCY}{cost}. Money refunded.")
             self.money_received = 0
             return False
+        
+        
+        
+        print("arif")

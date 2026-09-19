@@ -28,5 +28,4 @@ while is_on:
                 if money_machine.make_payment(drink.cost):
                     coffee_maker.make_coffee(drink)
                     
-                    
-                    print("arif")
+                

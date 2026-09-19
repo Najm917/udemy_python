@@ -27,10 +27,5 @@ while is_on:
             if coffee_maker.is_resource_sufficient(drink):
                 if money_machine.make_payment(drink.cost):
                     coffee_maker.make_coffee(drink)
+                    is_on=False
                     
-<<<<<<< HEAD
-                    
-                    
-=======
-                
->>>>>>> 3149dfaf0d4462ca88487e0e7c2749ff44e97704

@@ -53,7 +53,3 @@ resources = {
     "milk": 30000,     # 30 Liters
     "coffee": 10000,   # 10 Kg
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 3149dfaf0d4462ca88487e0e7c2749ff44e97704

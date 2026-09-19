@@ -39,11 +39,4 @@ class Menu:
                 return item
         print("Sorry that item is not available.")
         return None
-    
-    
-    
-<<<<<<< HEAD
-    
-=======
-    
->>>>>>> 3149dfaf0d4462ca88487e0e7c2749ff44e97704
+

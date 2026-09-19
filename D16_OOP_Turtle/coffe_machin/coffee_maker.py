@@ -32,4 +32,4 @@ class CoffeeMaker:
         self.resources = default_resources.copy()
         print("Machine resources have been successfully refilled!")
         
-        print("arif")
+        

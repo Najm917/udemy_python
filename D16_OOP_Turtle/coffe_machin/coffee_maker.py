@@ -32,4 +32,8 @@ class CoffeeMaker:
         self.resources = default_resources.copy()
         print("Machine resources have been successfully refilled!")
         
+<<<<<<< HEAD
         
+=======
+        
+>>>>>>> 3149dfaf0d4462ca88487e0e7c2749ff44e97704

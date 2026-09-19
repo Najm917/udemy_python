@@ -28,5 +28,9 @@ while is_on:
                 if money_machine.make_payment(drink.cost):
                     coffee_maker.make_coffee(drink)
                     
+<<<<<<< HEAD
                     
                     
+=======
+                
+>>>>>>> 3149dfaf0d4462ca88487e0e7c2749ff44e97704

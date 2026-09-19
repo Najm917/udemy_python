@@ -54,4 +54,3 @@ resources = {
     "coffee": 10000,   # 10 Kg
 }
 
-print("arif")

@@ -1,9 +1,0 @@
-{
-  "python-envs.pythonProjects": [
-    {
-      "path": "D16_OOP_Turtle",
-      "envManager": "ms-python.python:venv",
-      "packageManager": "ms-python.python:pip"
-    }
-  ]
-}

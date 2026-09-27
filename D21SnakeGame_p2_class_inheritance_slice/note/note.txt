@@ -1,0 +1,27 @@
+Python OOP - Turtle Inheritance & Scoreboard Notes
+Turtle Graphics me Inheritance ka Concept (Score/food Example)
+
+Core Concept:
+
+Jab hum class Score(Turtle) likhte hain, toh iska matlab hai ki Score class khud ek Turtle ban chuki hai. Hume alag se t = Turtle() banakar t.goto() ya t.penup() likhne ki zaroorat nahi padti. Score ke paas Turtle ke saare methods directly mil jaate hain via self.
+:
+
+
+___________________________________________
+1.  self.write():---Yeh method turtle ki screen par kisi text ko draw (display) karne ke kaam aata hai.
+  a. :--
+  self.write(f"Score: {self.score}", align="center", font= ("Arial", 24, "normal"))  (score.py se aya hai)
+
+  b.  :--align (optional, default="left"): Text ka alignment — "left", "center", ya "right".
+
+  c.  :--font (optional): Ek tuple jisme font details hoti hain: (font_name, font_size, font_type) jaise ("Arial", 24, "bold").
+
+
+  ___________________________________________
+  2. self.distance():--self.distance()Yeh method current turtle aur kisi doosre point ya turtle ke beech ki seedhi doori (pixels mein) calculate karta hai. Yeh internally Pythagoras theorem(d=root(x2-x1)square...)  use karta hai.
+
+    a. :--Kisi doosre turtle ka object: self.distance(food)
+
+    b. :--Coordinates $(x, y)$: self.distance(0, 0) ya self.distance((100, 50))
+
+    c.  :--

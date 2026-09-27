@@ -25,8 +25,8 @@ class Score(Turtle):
         self.clear()              # 8. Purana score mitata hai taaki overlapping na ho
         self.write(f"Score: {self.score}", align=ALIGNMENT, font=FONT)
 
-    def increase_score(self):
-        self.score += 1
+    def increase_score(self,points=1):
+        self.score += points
         self.update_scoreboard()  # Score badhakar screen par refresh karta hai
 
     def game_over(self):

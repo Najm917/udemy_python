@@ -1,0 +1,35 @@
+Bounce ka seedha matlab hai: direction ko ulta karna.
+Python me direction ulta karne ke liye variable ko -1 se multiply karte hain.
+
+a.   Positive (+) ban jata hai Negative (-):  eg... +10*(-1)=-10
+b.   negative (-) ban jata hai positive (+):   eg... -10*(-1)=+10
+
+________________________________________
+2.   Jab ball Top Wall ya Bottom Wall se takrati hai:
+code:------ self.y_move *= -1
+
+          Step-by-Step Kaam:
+
+a.  Ball upar ja rahi thi: y_move = +10 (Y badh raha hai: 10, 20, 30...).
+
+b.  Top wall se takkar hui, self.y_move *= -1 chala.
+
+c.  Ab y_move = -10 ho gaya.
+
+d.  Agle step par: ycor() + (-10) yani ycor() - 10.
+
+e.  Ball niche girna shuru ho jati hai.
+________________________________________
+
+3.  Jab ball Paddle ya Left/Right Wall se takrati hai:
+  code:---- self.x_move*=-1
+
+             Step-by-Step Kaam:
+
+a. Ball right ja rahi thi: x_move = +10 (X badh raha hai).
+
+b.  Paddle se takkar hui, self.x_move *= -1 chala.
+
+c.  Ab x_move = -10 ho gaya.
+
+d.  Ball wapas left side mud jati hai.

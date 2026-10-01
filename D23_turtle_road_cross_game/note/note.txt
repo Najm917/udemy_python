@@ -1,0 +1,16 @@
+decrease the car count every 8 time run loop then a new carate
+
+code:-----  rando_chance=random.randint(1,8)
+        if rando_chance==1:
+
+                  or
+        if random.randint(1, 8) == 1:
+    # create car
+---------------------------------------
+
+ Memory Management (Off-screen Cleanup)
+Jo car screen ke left side se bahar chali jaati hai (x < -320), wo screen par nahi dikhti lekin memory (RAM) mein rehti hai.
+
+Agar list se remove na karein, toh loop slow hota jayega.
+
+code:-------- self.all_cars = [car for car in self.all_cars if car.xcor() > -320]

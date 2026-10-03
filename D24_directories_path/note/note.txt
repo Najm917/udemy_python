@@ -1,0 +1,28 @@
+Data Persistence & File Handling: High Score System
+______________________________________
+
+try:
+            with open("data.txt", mode="r") as file:
+                self.high_score = int(file.read().strip())
+        except (FileNotFoundError, ValueError):
+            self.high_score = 0
+ye data ko read krta hai aur agar file na mile to by default 0 ho jata hai
+
+______________________________________
+
+with open("data.txt", mode="w") as file:
+                file.write(str(self.high_score))
+
+
+ye current number jo bhi hai usko data me replace krta hai 
+
+
+isko apne logic ke hisab se set kiya jata hai
+
+iska example [score.py] me hai
+
+______________________________________
+
+ jab proper mail merge projet me ho to "D24_directories_path\Mail Merge ProjectStart\Input\Letters\starting_letter.txt"  ye path ka jarurat ni hai 
+_________________________
+ "./Input/Names/invited_names.txt" ye path add hoga

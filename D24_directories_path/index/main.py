@@ -1,0 +1,6 @@
+with open("my_file.txt") as file:
+    contant=file.read()
+    print(contant)
+
+with open("my_file.txt",mode="a") as file:
+    file.write("\nhii")

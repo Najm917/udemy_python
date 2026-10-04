@@ -1,0 +1,6 @@
+Two primery data structure in pandas 
+1.Series    2.DataFrame
+
+DataFrame:-- hole table is DataFrame
+
+Series:-- singe row and column is Series

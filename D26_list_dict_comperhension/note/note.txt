@@ -1,0 +1,62 @@
+          LIST Comperhension
+
+1.  A list comprehension is a concise, readable way to create a new list from an existing iterable (like a list, range, tuple, or string) in a single line of code.
+
+2.  It replaces the common pattern of initializing an empty list, running a for loop, and calling .append().
+
+    [expression for item in iterable]
+
+normal code e.g:----
+numbers = [1, 2, 3, 4, 5]
+squares = []
+
+for num in numbers:
+    squares.append(num * 2)
+
+# squares: [2, 4, 6, 8, 10]
+
+Comperhension e.g:-----
+numbers = [1, 2, 3, 4, 5]
+squares=[num**2 for num in numbers]
+__________________________________
+Adding Conditions (Filtering)
+
+You can add an if statement at the end to filter elements:
+
+      [expression for item in iterable if condition]
+
+e.g:------
+evens = [x for x in range(1, 11) if x % 2 == 0]
+# evens: [2, 4, 6, 8, 10]
+__________________________________
+          DICT Comperhension
+
+1.  A dictionary comprehension is a concise way to create a new dictionary from an iterable (such as a list, range, or another dictionary) in a single readable line.
+
+2.  Like list comprehensions, it replaces the need to initialize an empty dictionary and populate it using a for loop.
+
+          {key_expression: value_expression for item in iterable}
+__________________________________
+From a List or Range
+
+You can generate key-value pairs directly from a sequence:
+
+e.g:-----
+squares = {num: num**2 for num in range(1, 6)}
+print(squares)
+
+__________________________________
+From an Existing Dictionary
+
+When transforming an existing dictionary, use .items() to access both the key and the value simultaneously:
+
+wether_c={"Monday": 12,
+    "Tuesday": 14,
+    "Wednesday": 15,
+    "Thursday": 14,
+    "Friday": 21,
+    "Saturday": 22,
+    "Sunday": 24,
+    }
+wether_f={day:(temp*9/5)+32 for (day,temp) in wether_c.items()}
+print(wether_f)

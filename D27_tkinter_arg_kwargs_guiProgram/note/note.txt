@@ -1,0 +1,67 @@
+        Tkinter
+1.  Tkinter (short for Tk interface) is Python's standard, built-in library used for creating Graphical User Interfaces (GUIs)—windows, buttons, text fields, and desktop applications.
+
+2.  It comes pre-installed with standard Python, meaning you do not need to run pip install to use it.
+
+Key Concepts in Tkinter
+----------------------------------------
+1.  Widgets: The graphical components added to the window, such as:
+
+a.  Label :– Displays text or images.
+
+b.  Button :– Clickable button that triggers actions.
+
+c.  Entry :– Single-line text input field.
+
+d.  Text :– Multi-line text input field.
+---------------------------------------
+2.  Geometry Managers (Layout): How widgets are positioned:
+
+a.  .pack() – Stacks widgets vertically or horizontally
+
+b.  grid() – Places widgets in a 2D table of rows and columns
+
+c.  place() – Positions widgets using exact $(x, y)$ coordinates.
+-------------------------------------
+3.  Event Loop (mainloop): An infinite loop that waits for user interactions (clicks, key presses) and updates the screen.
+
+
+
+------------------------------------
+Button:---Button: Us data par koi action trigger karne ke liye (Submit/Calculate).
+
+command=function_name:----Click hone par function execute karta hai
+-----------------------------------
+
+Entry:----Entry: Single-line text input lene ke liye (Form field ki tarah).
+
+1.  .get():----Box mein likha hua text string ke form mein laata hai
+2.  
+
+3.  .insert(0, "text"):----Default/placeholder text daalta hai
+
+4.  .delete(0, tk.END):----Box ke saare text ko clear kar deta hai
+------------------------------------
+*args = Function ko unlimited values lene deta hai aur unhe ek Tuple ke roop mein store karta hai. (*any)
+
+1.  returen Tuple()
+
+e.g:---
+def add(*args):
+   sum=0
+   for n in args:
+       sum+=n
+   returen sum
+print(add(1,3,4,5,6,7,8,.....))
+---------------------------------------
+**kwargs:-----
+**kwargs Python ka syntax hai jo function ko unlimited keyword arguments (key=value format) lene ki aazadi deta hai.
+
+1.  returen Dictionary {}
+
+e.g:----
+def student_info(**kwargs):
+    print(kwargs)
+    for key, value in kwargs.items():
+        print(f"{key}: {value}")
+student_info(name="Arif", age=20, city="Delhi")

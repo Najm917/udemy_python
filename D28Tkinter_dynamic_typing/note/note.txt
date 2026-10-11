@@ -1,0 +1,33 @@
+Time Calculation (Watch Format) 
+____________________________
+
+Jab hum timer banate hain,(MM:SS) is format me dihana hota hai
+
+code formet:---
+count_min = math.floor(counter / 60)
+count_sec = counter % 60
+____________________________
+e.g:----
+1.  175 second math.floor(175/60)=2.91 ye hame perfect 2 minuts aur kuch second de rha hai 
+
+2.  175 second 175%60 =55 seconds de rha hai
+
+____________________________
+          window.after() Function Kya Karta Hai?
+
+Tkinter mein window.after() ek built-in method hai jo delay ya looping timer banane ke kaam aati hai (JavaScript ke setTimeout ya setInterval ki tarah).
+
+code e.g:--
+window.after(1000, count_down, counter - 1)
+
+
+NOTE:---
+Tkinter me while loop chalane se GUI freeze HO JATA Hai iske ke jagah pe .after() use hota hai
+
+____________________________
+          canvas.itemconfig() Ka Use
+
+Canvas par jo elements (jaise text, shapes, ya images) pehle se create kar diye jaate hain, unki properties (jaise text ka content, color, font) ko baad mein change/update karne ke liye itemconfig() ka use hota hai.
+
+code e.g:---
+canvas.itemconfig(timer_text, text=f"{count_min}:{count_sec}")

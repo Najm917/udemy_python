@@ -1,0 +1,16 @@
+          MESSAGEBOX
+
+Tkinter mein messagebox ek pop-up dialog box provide karta hai jiska use user ko information dene, warning dikhane, errors batane ya confirmation (Yes/No) lene ke liye kiya jaata hai.
+ 
+
+MESSAGEBOX have many functon according to your requirment you can use 
+
+e.g:---
+.showwarning()
+.showwarning()
+.showerror()
+etc..
+
+
+          clipbord copy
+pip i pyperclip

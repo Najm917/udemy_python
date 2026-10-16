@@ -1,0 +1,18 @@
+to_dict()
+ye ek sath Hindi ka sara words ko alag dictionary bna deta hai aur same english ka bhi hota hai 
+e.g:--
+{
+    "Hindi": {0: "namaste", 1: "pani", 2: "ghar"},
+    "English": {0: "hello", 1: "water", 2: "house"}
+}
+
+___________________________
+to_dict(orient="dict")
+
+har words ka alag alag dictionary banata hai jisse har baar search krne pe hindi and english sath me search hoti hai
+e.g:--
+[
+    {"Hindi": "namaste", "English": "hello"},
+    {"Hindi": "pani", "English": "water"},
+    {"Hindi": "ghar", "English": "house"}
+]

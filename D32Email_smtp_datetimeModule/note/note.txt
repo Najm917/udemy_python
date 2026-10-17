@@ -1,0 +1,18 @@
+What is datetime:---It handles everything related to dates, times, and timestamps. Use it when your code needs to:
+
+a.  Check the current date and time (year, month, day, hour, minute).
+
+b.  Determine what day of the week it is (e.g., checking if today is Tuesday or Friday).
+
+c.  Compare dates (e.g., checking if today's date matches a birthday in your CSV file).
+
+d.  Format dates into human-readable text (e.g., converting a date into "Friday" or "17/10/2026").
+______________________________________
+
+What is smtplib:--SMTP stands for Simple Mail Transfer Protocol. It is the standard networking protocol used by email clients across the internet to route and deliver mail. Use it when your code needs to:
+a.  Connect to an email provider's server (such as Gmail, Yahoo, or Outlook).
+
+b.  Securely authenticate and log into your account using your credentials or App Passwords.
+
+
+c.  Send automated messages, birthday wishes, notification alerts, or quotes directly to any inbox.

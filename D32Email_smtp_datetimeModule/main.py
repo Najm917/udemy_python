@@ -11,7 +11,7 @@ my_password=MY_PASS
 now = dt.datetime.now()
 weekday = now.weekday()  # Monday = 0, tuesday=1 etc
 
-if weekday == 5:
+if weekday == 2:
     with open("quots.txt", "r", encoding="utf-8") as quote_file:
         all_quotes = quote_file.readlines()
         quote = random.choice(all_quotes).strip()

@@ -1,0 +1,6 @@
+https://opentdb.com/api_config.php
+
+
+html scape() and unscape():---- import html and method search google
+
+unscape():--- iska matkab hai ke har jagah jaha jaha "" and '' hai ya aur bhi koi symbol hai sahi se dikhana 

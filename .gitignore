@@ -1,3 +1,8 @@
-**/config.py
-**/.idea
-*/all_private_info.py
+#D32 email smtp and D33 api endpoint
+**/config.py 
+
+
+**/.idea 
+
+#D35 chatbot
+*/all_private_info.py 

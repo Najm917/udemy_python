@@ -1,16 +1,14 @@
 import requests
+from api_token import BOT_TOKEN,NEWS_API_KEY,NEWS_ENDPOINT,STOCK_API_KEY,STOCK_ENDPOINT,CHAT_ID,TELEGRAM_ENDPOINT
+STOCK_NAME = "TSLA"
+COMPANY_NAME = "Tesla"
 
 STOCK_NAME = "TSLA"
 COMPANY_NAME = "Tesla Inc"
 
-STOCK_API_KEY = "SKQWUMEGGBS2JAO5"
-NEWS_API_KEY = "cfa49206fd764ca4b4faf1f2a256abe4"[cite: 8]
 
-BOT_TOKEN = "9177182614:AAH6sbPXQGr6rR1T7cHWd4fWUY3QeAFwXE8"
-CHAT_ID = "8951054263"
 
-STOCK_ENDPOINT = "https://www.alphavantage.co/query"
-NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
+
 TELEGRAM_ENDPOINT = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
 
 stock_params = {
